@@ -1,0 +1,91 @@
+.title{
+    color: chocolate;
+    text-align: center;
+    margin-top: 30px;
+    font-size: xx-large;
+}
+
+.main-area{
+    background-color: rgb(255, 199, 177);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 90px;
+    border-radius: 5px;
+    justify-content: center;
+    gap: 8px;
+}
+
+input[type=text]{
+    width: 100%;
+    padding: 6px 10px;
+    margin: 6px 0;
+    box-sizing: border-box;
+}
+
+#enter{
+    color: rgb(40, 20, 5);
+    font-size: larger;
+    outline: none;
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+}
+
+#newTodo{
+    position: relative;
+    width: 100%;
+    width: 220px;
+    border: 0;
+    border-radius: 4px;
+    
+}
+
+#addBtn, button{
+    padding: 5px;
+    background: chocolate;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    font-size: medium;
+}
+
+#addBtn:hover, button:hover{
+    background-color: rgb(213, 134, 77);
+    transition: all .2s;
+}
+
+#todoList{
+    list-style-type: none;
+    position: relative;
+    /* justify-content: space-between; */
+    gap: 15px;
+    align-items: center;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.checkbox{
+    font-size: xx-large;
+}
+
+li{
+    padding: 15px;
+    background-color: bisque;
+    display: flex;
+    font-size: larger;
+    justify-content: space-between;
+    width: 360px;
+    border-radius: 5px;
+}
+
+span{
+    justify-content: flex-start;
+}
+
+li.completed span{
+    background-color: #fae0e0;
+    padding: 2px;
+    color: #999;
+    text-decoration: line-through;
+}
